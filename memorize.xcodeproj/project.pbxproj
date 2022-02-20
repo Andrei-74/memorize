@@ -11,6 +11,7 @@
 		847B933D27B7C86700B2789E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B933C27B7C86700B2789E /* ContentView.swift */; };
 		847B933F27B7C86800B2789E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847B933E27B7C86800B2789E /* Assets.xcassets */; };
 		847B934227B7C86800B2789E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847B934127B7C86800B2789E /* Preview Assets.xcassets */; };
+		847B934927C2F8D700B2789E /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B934827C2F8D700B2789E /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		847B933C27B7C86700B2789E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		847B933E27B7C86800B2789E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847B934127B7C86800B2789E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		847B934827C2F8D700B2789E /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				847B933A27B7C86700B2789E /* memorizeApp.swift */,
 				847B933C27B7C86700B2789E /* ContentView.swift */,
+				847B934827C2F8D700B2789E /* MemoryGame.swift */,
 				847B933E27B7C86800B2789E /* Assets.xcassets */,
 				847B934027B7C86800B2789E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B934927C2F8D700B2789E /* MemoryGame.swift in Sources */,
 				847B933D27B7C86700B2789E /* ContentView.swift in Sources */,
 				847B933B27B7C86700B2789E /* memorizeApp.swift in Sources */,
 			);

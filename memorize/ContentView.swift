@@ -20,19 +20,20 @@ struct ContentView: View {
                 }
             }
             .foregroundColor(.red)
-            Spacer()
+ /*           Spacer()
             HStack {
-                remove nhbvhgn  qASD
+                remove
                 Spacer()
                 add
             }
             .font(.largeTitle)
+  */
             .padding(.horizontal)
         }
         .padding(.horizontal)
        
         
-    }
+/*    }
     var add: some View {
         Button {
             if emojiCount < emojis.count {
@@ -51,7 +52,7 @@ struct ContentView: View {
             Image(systemName: "minus.circle")
         }
     }
-    
+ */
 }
 
 
@@ -97,4 +98,4 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
-
+}
